@@ -10,7 +10,7 @@ function convertPokeApiDetailToPokemon(pokeDatail) {
 
     pokemon.types = types
     pokemon.type =type
-
+    
     pokemon.photo = pokeDatail.sprites.other.dream_world.front_default
 
     return pokemon

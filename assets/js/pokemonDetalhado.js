@@ -1,8 +1,10 @@
-class Pokemon {
+class PokemonDetalhado {
     number;
     name;
     type;
     types = []; 
-    photo; 
-    
+    photo;
+    ability; 
+    abilities = [];
+    weight;
 }
