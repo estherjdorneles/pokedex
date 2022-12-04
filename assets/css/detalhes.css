@@ -138,18 +138,21 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
+  justify-content: space-between;
     width: 100%;
     padding: 1rem;
  }
  
 
  .pagination button {
-    color: rgb(232, 229, 229);
-    background-color: mediumpurple;
-    margin: .25rem 0;
-    border-color: #320548;
-    border-radius: 1rem;
+  display: flex;
+  flex-direction: row;
   
+  color: rgb(232, 229, 229);
+  background-color: mediumpurple;
+  margin: .25rem 0;
+  border-color: #320548;
+  border-radius: 1rem;
 }
 
 .pagination a:link {
