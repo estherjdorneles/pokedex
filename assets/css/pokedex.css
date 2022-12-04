@@ -62,17 +62,17 @@
  }
 
  .pokemons button {
-  color: whitesmoke;
+  color: rgb(184, 108, 32);
   background-color: rgba(249, 249, 249, 0.359);
   margin: .25rem 0;
   border-color: none;
   border-radius: 1rem;
 }
 a:link {
-  color: rgb(255, 255, 255);
+  color: rgb(149, 105, 39);
 }
 a:visited {
-  color: white;
+  color: rgb(174, 114, 41);
 }
 
  .pokemon {

@@ -4,7 +4,7 @@ const loadMoreInfo = document.getElementById('loadMoreInfo')
 const loadMoreButton = document.getElementById('loadMoreButton')
 
 const maxRecords = 151
-const limit = 1
+const limit = 8
 let offset = 0;
 
 
@@ -37,6 +37,7 @@ function loadPokemonDetails(offset, limit) {
 
 
 loadPokemonDetails(offset, limit)
+
 
 
 loadMoreButton.addEventListener('click', () => {
