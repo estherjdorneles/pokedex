@@ -61,6 +61,19 @@
    background-color: #d37ad0fb;
  }
 
+ .pokemons button {
+  color: whitesmoke;
+  background-color: rgba(249, 249, 249, 0.359);
+  margin: .25rem 0;
+  border-color: none;
+  border-radius: 1rem;
+}
+a:link {
+  color: rgb(255, 255, 255);
+}
+a:visited {
+  color: white;
+}
 
  .pokemon {
     display: flex;

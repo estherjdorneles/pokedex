@@ -5,7 +5,7 @@
 }
 
 body {
-   background-color: rgba(250, 250, 250, 0.472);
+   background-image: url(./imagens/pokemon.jpg);
 
 }
 
@@ -13,7 +13,7 @@ body {
    width: 100vw;
    height: 100vh;
     padding: 1rem;
-    background-color: #bcc9c933;
+    background-color: #bcc9c9bc;
 }
 
 @media screen and (min-width: 922px) {
